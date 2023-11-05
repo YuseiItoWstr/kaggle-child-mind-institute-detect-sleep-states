@@ -87,7 +87,7 @@ def main(cfg: DictConfig):  # type: ignore
     LOGGER.info(f"Extracting and saving best weights: {weights_path}")
     torch.save(model.model.state_dict(), weights_path)
 
-    return
+    return acc
 
 
 if __name__ == "__main__":
