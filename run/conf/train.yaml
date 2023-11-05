@@ -34,7 +34,7 @@ downsample_rate: 2
 upsample_rate: 1
 
 # training
-epoch: 50
+epoch: 100
 batch_size: 64
 num_workers: 24
 accelerator: auto
