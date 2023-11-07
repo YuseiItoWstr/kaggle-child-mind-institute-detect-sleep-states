@@ -48,7 +48,7 @@ check_val_every_n_epoch: 1
 
 # Dataset
 offset: 10
-sigma: 20
+sigma: 10
 bg_sampling_rate: 0.5
 
 # augmentation
